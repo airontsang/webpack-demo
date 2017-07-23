@@ -1,0 +1,26 @@
+{
+  "name": "webpack_sass",
+  "version": "1.0.0",
+  "description": "To draw UI with sass in webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.27.3",
+    "file-loader": "^0.11.2",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.29.0"
+  }
+}
